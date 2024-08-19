@@ -1,0 +1,85 @@
+.textCard{
+
+    width: 95%;
+    padding: 9px;
+    color: white;
+   
+}
+.text{
+    font-size: 23px;
+    font-family: inter;
+    font-weight: 700;
+    word-break: break-all;
+    
+}
+
+.imagecard{
+    padding: 4px;
+    
+    
+    
+}
+.marg{
+    
+    border-bottom: 0.9px rgb(37, 49, 83) solid;
+    width: 100%;
+    margin-top: 60px;
+}
+.image{
+    height: 44vh;
+    border: 1.6px rgb(36, 36, 50) solid;
+    border-radius: 10px;
+    width: 99%;
+}
+
+.postCard{
+    border: 1.6px  solid;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.postInfo{
+    display: flex;
+    padding: 8px;
+    margin-left: 1px;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: Dm sans;
+
+}
+.postBy{
+    font-size: 17px;
+    color: white;
+
+}
+.date{
+    font-size: 16px;
+    font-weight: 800;
+    color: aliceblue;
+    margin-top: 30px;
+}
+
+.pageName{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.bookmark{
+    font-size: 18px;
+    padding-top: 6px;
+    border: 2px rgb(70, 82, 99) dotted;
+    
+    border-radius: 20px;
+    text-align: center;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.book{
+    margin-bottom: 20px;
+}

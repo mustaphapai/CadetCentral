@@ -1,0 +1,22 @@
+.mainpage {
+    background-color: rgb(0, 0, 23);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  
+  .content {
+    flex: 1;
+     /* Navbar height (56px) + Tabbar height (56px) */
+    overflow-y: auto;
+  }
+  
+  .MuiBox-root {
+    margin-top: 14px; /* Navbar height */
+  }
+  
+  .MuiTab-root {
+    min-width: 10 !important;
+  }
+  

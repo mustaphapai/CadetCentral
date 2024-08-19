@@ -1,0 +1,41 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    margin-top: 6px;
+    margin-bottom: 60px;
+    background-color: white;
+    font-family: 'Dm sans';
+}
+
+
+    .aboutTitle{
+        font-size: 33px;
+        font-family: 'inter';
+        font-weight: 700;
+        padding: 6px;
+        margin-top: 90px;
+       
+    }
+    .aboutPara{
+    
+        font-size: 20px;
+        padding: 9px;
+        line-height: 1.7rem;
+        
+    }
+
+    .aboutSign{
+        background-color: rgb(82, 119, 200);
+        color: white;
+        font-size: 23px;
+        padding: 14px;
+        margin: 9px;
+        border-radius: 13px;
+        border: none;
+        width: 78%;
+    
+    }
+    

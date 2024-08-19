@@ -1,0 +1,53 @@
+
+.postCard{
+    height: 100vh;
+
+}
+.view{
+    width: 100%;
+    background-color: rgb(1, 1, 24);
+    display: block;
+    flex-direction: column;
+    color: white;
+    
+}
+.imageItem{
+    height: 55vh;
+    width: 100%;
+}
+
+.viewTitle{
+padding: 16px;
+font-size: 21px;
+font-family: Dm sans;
+font-weight: 400;
+
+border-radius: 14px;
+
+margin-bottom:16px;
+
+}
+
+.viewpostInfo{
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+}
+
+.viewpostBy{
+font-size: 22px;
+font-weight: 200;
+
+}
+.viewdate{
+    font-size: 17px;
+    padding: 10px;
+    border: 2px rgb(57, 87, 97) dotted;
+    width: 190px;
+    border-radius: 20px;
+    text-align: center;
+}
+.viewpageName{
+    font-size: 24px;
+    font-weight: 600;
+}

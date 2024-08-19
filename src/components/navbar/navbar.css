@@ -1,0 +1,18 @@
+.navbar{
+    padding: 4px;
+    background-color: #000017;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 11px;
+    padding-right: 20px;
+    
+    
+}
+.logoTitle{
+    color: rgb(114, 132, 151);
+    letter-spacing: 0.04rem;
+    font-size: 25px;
+    font-family: inter;
+    font-weight: 800;
+}

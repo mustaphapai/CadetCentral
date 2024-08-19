@@ -1,0 +1,27 @@
+.footer{
+    background-color: rgb(0, 0, 14);
+    color: white;
+    padding: 16px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dm sans';
+}
+
+.copyright{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    margin: 13px;
+    padding: 5px;
+}
+.footerTitle{
+    font-size: 20px;
+}
+
+.item{
+    margin: 7px;
+    padding-top: 4px;
+}

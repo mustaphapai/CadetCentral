@@ -1,0 +1,159 @@
+.library{
+    display: flex;
+    flex-direction: column;
+    color: rgb(233, 233, 233);
+
+}
+
+.libTitle{
+    font-size: 27px;
+    font-family: inter;
+    font-weight: 700;
+}
+.searchInput{
+    margin: 5px;
+    width: 98%;
+    padding: 11px;
+    height: 30px;
+    background-color: transparent;
+    border: 1.6px rgb(165, 165, 200) solid;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.titleDiv{
+
+    
+}
+
+.deptTitle{
+    font-size: 21px;
+    font-family: inter;
+    font-weight: 600;
+}
+.uploadInfo{
+    display: flex;
+    align-items: center;
+    width: 77vw;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.uploadCard{
+    border: 1.6px rgb(39, 39, 52) solid;
+    padding: 12px;
+    border-radius: 15px;
+    margin-bottom: 9px;
+    width: 100%;
+    background-color: rgb(80, 2, 170);
+}
+
+.uploadName{
+    font-size: 23px;
+    font-family: inter;
+    font-weight: 600;
+    margin: 4px;
+}
+.uploadCode{
+    font-size: 16px;
+    font-family: inter;
+    font-weight: 200;
+    margin: 6px;
+}
+
+.searchScreen{
+
+    padding: 10px;
+}
+.searchScreenInput{
+    padding: 10px;
+    margin: 8px;
+    width: 87%;
+    height: 44px;
+    background: transparent;
+    border: 1.2px rgb(2, 22, 66) dotted;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: inter;
+
+}
+
+.background{
+    background-color: rgb(1, 1, 24);
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.uploadDept{
+    font-size: 18px;
+    font-family: inter;
+    font-weight: 400;
+    margin: 6px;
+}
+.uploadDate{
+    font-size: 13px;
+    font-family: inter;
+    font-weight: 300;
+    margin: 2px;
+    padding: 8px;
+    border-radius: 13px;
+    background-color: rgb(134, 50, 203);
+    width: 24vw;
+}
+.uploadedBy{
+    font-size: 11px;
+    font-family: inter;
+    font-weight: 300;
+     color: rgb(233, 233, 233);
+    
+
+  
+}
+
+.viewBtn{
+
+    font-size: 15px;
+    font-family: Dm sans;
+    font-weight: 400;
+    margin: 4px;
+    padding: 15px;
+    border-radius: 16px;
+    background-color: rgba(12, 54, 240, 0.881);
+    border: none;
+    color: rgb(233, 233, 233);
+  
+}
+.uploadedByDiv{
+    display: flex;
+    align-items: center;
+    width: 26vw;
+    justify-content: space-between;
+}
+
+.pageGriditem {
+    display: flex;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    gap: 20px; /* Adjust the spacing between divs as needed */
+    padding: 9px;
+    margin-bottom: 70px;
+}
+
+.griditem {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 19px;
+    background: linear-gradient(to right, rgb(2, 54, 152), rgb(57, 10, 119));
+    height: 34vh; /* Adjust height as needed */
+    min-width: 93.5%; /* Adjust width as needed */
+    text-align: center;
+    border-radius: 23px;
+    flex: 0 0 auto; /* Prevents flex items from shrinking */
+}

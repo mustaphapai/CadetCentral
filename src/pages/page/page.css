@@ -1,0 +1,42 @@
+.pageGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Adjust the spacing between divs as needed */
+    padding: 9px;
+    margin-bottom: 70px;
+}
+
+.grid {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 19px;
+    background: linear-gradient(to right, rgb(2, 54, 152),rgb(57, 10, 119) );
+    height: 34vh; /* Adjust height as needed */
+    width: 93.5%; /* Adjust width as needed */
+    text-align: center;
+    border-radius: 23px;
+    
+}
+.grid1 {
+    padding: 10px;
+    display: flex;
+  
+    justify-content: center;
+    color: rgb(197, 195, 195);
+    flex-direction: column;
+    
+    font-weight: 600;
+    font-family: 'inter';
+    font-size: 22px;
+    background: linear-gradient(to right, rgb(0, 25, 71),rgb(25, 0, 58) );
+    height: 34vh; /* Adjust height as needed */
+    width: 93.5%; /* Adjust width as needed */
+    text-align: center;
+    border-radius: 23px;
+    
+}

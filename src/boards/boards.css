@@ -1,0 +1,62 @@
+.boards{
+    height: 8vh;
+    width: 100%;
+    margin: 1px;
+    padding: 8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1.7px rgb(84, 84, 121) solid;
+    font-family: Dm sans;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.channelBorder{
+    
+    
+    
+    display: flex;
+    flex-direction: column;
+    border: 1.7px rgb(84, 84, 121) solid;
+    font-family: Dm sans;
+    border-radius: 16px;
+}
+.boardTitle{
+    font-family: Dm sans;
+    font-size: 14px;
+    font-weight: 200;
+}
+.channels{
+    color: rgb(127, 140, 154);
+    margin-top: 8px;
+   
+}
+.channelTitle{
+    font-family: Dm sans;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    
+}
+.channel{
+    border-radius: 13px;
+    border: 1.7px rgb(15, 15, 51) solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 12vh;
+    padding: 12px;
+    background-color: rgb(0, 0, 58);
+    margin:3px;
+}
+.channelsList{
+    display: flex;
+    height: 21vh;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
